@@ -1,0 +1,75 @@
+.clients__item {
+    &:nth-child(1) {
+        width: 10.4rem;
+        height: 5rem;
+        margin-right: 7.5rem;
+    }
+
+    &:nth-child(2) {
+        width: 14.5rem;
+        height: 9.7rem;
+        margin-right: 4.2rem;
+    }
+
+    &:nth-child(3) {
+        width: 17rem;
+        height: 4.4rem;
+        margin-right: 3.5rem;
+    }
+
+    &:nth-child(4) {
+        width: 15.1rem;
+        height: 6.3rem;
+        margin-right: 6rem;
+    }
+
+    &:nth-child(5) {
+        width: 12.9rem;
+        height: 6.3rem;
+        margin-right: 6.7rem;
+    }
+
+    &:nth-child(6) {
+        width: 13.2rem;
+        height: 2.2rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .clients__item {
+        &:nth-child(1) {
+            width: 50%;
+            margin-right: 0;
+            order: 1;
+        }
+
+        &:nth-child(2) {
+            width: 50%;
+            margin-right: 0;
+            order: 5;
+        }
+
+        &:nth-child(3) {
+            width: 50%;
+            margin-right: 0;
+            order: 3;
+        }
+
+        &:nth-child(4) {
+            width: 50%;
+            margin-right: 0;
+            order: 4;
+        }
+
+        &:nth-child(5) {
+            width: 50%;
+            margin-right: 0;
+            order: 2;
+        }
+
+        &:nth-child(6) {
+            width: 50%;
+            order: 6;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.header-logo__wrap {
+  width: 18.4rem;
+}
+
+@media (max-width: 48em) {
+  .header-logo__wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,12 @@
+.slider__pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -8rem;
+    z-index: 100;
+
+
+    .swiper-pagination-bullet-active {
+        background-color: #2B3350;
+    }
+}

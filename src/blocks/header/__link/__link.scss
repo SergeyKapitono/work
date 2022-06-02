@@ -1,0 +1,9 @@
+.header__link {
+  @include font(500, 1.6rem, 140%);
+  color: $color-text-black;
+
+
+  &:not(:last-child) {
+    margin-right: 3.4rem;
+  }
+}

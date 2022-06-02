@@ -1,0 +1,35 @@
+.form__label {
+    position: relative;
+    width: 41.3rem;
+    height: 8.1rem;
+    z-index: 100;
+
+    &:nth-child(1) {
+        .form__input--style {
+            background: url('../img/form/user.svg') #576077;
+            background-repeat: no-repeat;
+            background-size: 2.4rem;
+            background-position-y: 50%;
+            background-position-x: 3.4rem;
+        }
+    }
+
+    &:nth-child(2) {
+        margin-left: 1.4rem;
+        margin-right: 1.4rem;
+
+        .form__input--style {
+            background: url('../img/form/phone.svg') #576077;
+            background-repeat: no-repeat;
+            background-size: 2.4rem;
+            background-position-y: 50%;
+            background-position-x: 3.4rem;
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .form__label {
+        align-items: center;
+    }
+}

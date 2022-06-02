@@ -1,0 +1,11 @@
+.catalog__more--style {
+    background: #F3F4F7;
+    border-radius: .8rem;
+}
+
+@media (max-width: 48em) {
+    .catalog__more--style {
+        width: 85%;
+        margin-left: 5rem;
+    }
+}
