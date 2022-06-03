@@ -138,3 +138,29 @@ form.addEventListener('submit', (e) => {
     form.reset();
 
 });
+
+// accordeon
+let accordion = document.querySelector('.facts__items'),
+    tab = document.querySelectorAll('.facts__item'),
+    answer = document.querySelectorAll('.facts__answer'),
+    plus = document.querySelectorAll('.facts__plus'),
+    minus = document.querySelectorAll('.facts__minus');
+
+accordion.addEventListener('click', (e) => {
+    const target = e.target.closest('.facts__item');
+    if (target) {
+        tab.forEach((item, i) => {
+            if (item === target) {
+                answer[i].classList.add('active');
+                tab[i].classList.add('facts__item--active');
+                plus[i].style.display = 'none';
+                minus[i].style.display = 'flex' ;
+            } else {
+                answer[i].classList.remove('active');
+                tab[i].classList.remove('facts__item--active');
+                plus[i].style.display = 'flex';
+                minus[i].style.display = 'none';
+            }
+        });
+    }
+});
