@@ -1,4 +1,4 @@
-//select headers
+    //select headers
 const selectHeader = document.querySelector('.select__header');
 const selectBody = document.querySelector('.select__body');
 const selectItem = document.querySelectorAll('.select__item');
@@ -108,8 +108,32 @@ const swiper = new Swiper('.slider', {
     },
   });
 
-//   iform send
+//   iform send + validation
 const form = document.querySelector('.form__elements');
+
+const typeSelector = form.querySelector('input[type="tel"]');
+const inputMask = new Inputmask('+7 (999) 999-99-99');
+inputMask.mask(telSelector);
+
+const validation = new JustValidate('.form__elements');
+
+validation
+  .addField('#name', [{
+      rule: 'minlenght',
+      value: 2,
+      errorMessage: 'Колличество символов меньше 2!'
+  },
+  {
+      rule:'maxLenght',
+      value: 30,
+      errorMessage: 'Колличество символов больше 30!'  
+  },
+  {
+      rule: 'required',
+      value: true,
+      errorMessage: 'Введите имя!'
+  }
+])
 
 const sendForm = (data) => {
     return fetch('mail.php', {

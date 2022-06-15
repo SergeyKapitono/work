@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
     <script defer src="js/swiper-bundle.js"></script>
+    <script defer src="js/inputmask.min.js"></script>
+    <script defer src="js/just-validate.min.js"></script>
     <script defer src="js/script.js"></script>
     <script defer src="js/aos.js"></script>
     <title>ОфисДирект</title>
@@ -423,7 +425,8 @@
                                 <img src="img/facts/minus.svg" class="facts__minus" alt="">
                             </div>
                         </div>
-                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно скомпоновать, если
+                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно
+                            скомпоновать, если
                             перебирать все возможные сочетания комплектующих. Но в каталог МЕТТА входят около тысячи
                             наиболее востребованных моделей.</div>
                     </div>
@@ -438,7 +441,8 @@
                                 <img src="img/facts/minus.svg" class="facts__minus" alt="">
                             </div>
                         </div>
-                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно скомпоновать, если
+                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно
+                            скомпоновать, если
                             перебирать все возможные сочетания комплектующих. Но в каталог МЕТТА входят около тысячи
                             наиболее востребованных моделей.</div>
                     </div>
@@ -453,7 +457,8 @@
                                 <img src="img/facts/minus.svg" class="facts__minus" alt="">
                             </div>
                         </div>
-                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно скомпоновать, если
+                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно
+                            скомпоновать, если
                             перебирать все возможные сочетания комплектующих. Но в каталог МЕТТА входят около тысячи
                             наиболее востребованных моделей.</div>
                     </div>
@@ -468,7 +473,8 @@
                                 <img src="img/facts/minus.svg" class="facts__minus" alt="">
                             </div>
                         </div>
-                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно скомпоновать, если
+                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно
+                            скомпоновать, если
                             перебирать все возможные сочетания комплектующих. Но в каталог МЕТТА входят около тысячи
                             наиболее востребованных моделей.</div>
                     </div>
@@ -483,7 +489,8 @@
                                 <img src="img/facts/minus.svg" class="facts__minus" alt="">
                             </div>
                         </div>
-                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно скомпоновать, если
+                        <div class="facts__answer facts__answer--color">Столько различных модификаций кресел можно
+                            скомпоновать, если
                             перебирать все возможные сочетания комплектующих. Но в каталог МЕТТА входят около тысячи
                             наиболее востребованных моделей.</div>
                     </div>
@@ -558,44 +565,48 @@
     </div>
 
     <footer class="footer">
-        <div class="footer__wrap">
-            <div class="footer__logo">
-                <a href="#" class="footer-logo__wrap">
-                    <div class="footer-logo__img">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__logo">
+                    <div class="footer__img-logo">
                         <img src="img/footer/footer-logo.png" alt="">
                     </div>
-                    <div class="footer--logo__text">Кресла Samurai</div>
-                </a>
-            </div>
-            <div class="footer__description">Политика конфиденциальности <br>© 2021 Все права защищены</div>
-
-            <div class="footer__menu">
-                <nav class="footre_nav">
-                    <a href="#" class="footer__link">О продукте</a>
-                    <a href="#" class="footer__link">Отзывы</a>
-                    <a href="#" class="footer__link">Доставка и оплата</a>
-                    <a href="#" class="footer__link">Контакты</a>
+                    <div class="footer__text">
+                        <div class="footer__description footer__description--color">Кресла Samurai</div>
+                    </div>
+                    <div class="footer__protection">
+                        <div class="footer__text-protec footer__text-protec--color">Политика конфиденциальности <br>© 2021 Все права защищены</div>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <a href="#" class="footer__link footer__link--color">О продукте</a>
+                    <a href="#" class="footer__link footer__link--color">Отзывы</a>
+                    <a href="#" class="footer__link footer__link--color">Доставка и оплата</a>
+                    <a href="#" class="footer__link footer__link--color">Контакты</a>
                 </nav>
-            </div>
-            <div class="footer-tel footer-tel__wrap">
-                <div class="footer-tel__img">
-                    <img src="img/footer/footer-phone.svg" alt="">
-                    <a href="tel:+74952210675" class="footer-tel__text">+7 495 221-06-75</a>
+                <div class="footer__contacts">
+                    <div class="footer-tel footer-tel__wrap">
+                        <div class="footer-tel__img">
+                            <img src="img/footer/footer-phone.svg" alt="">
+                        </div>
+                        <a href="tel:+74952210675" class="footer-tel__text footer-tel__text--color">+7 495 221-06-75</a>
+                    </div>
+                    <div class="footer-mas footer-mas__wrap">
+                        <div class="footer-mas__img">
+                            <img src="img/footer/footer-Message.svg" alt="">
+                        </div>
+                        <a href="mailto:zakaz@kresla-samurai.ru" class="footer-mas__text footer-mas__text--color">zakaz@kresla-samurai.ru</a>
+                    </div>
+                    <div class="footer-gps footer-gps__wrap">
+                        <div class="footer-gps__img">
+                            <img src="img/footer/footre-gps.svg" alt="">
+                        </div>
+                        <div class="footer-gps__text footer-gps__text--color">ул. Красного курсанта д.25, лит.в, оф. 114,
+                            бизнес-центр "RED CADET"</div>
+                    </div>
                 </div>
             </div>
-            <div class="footer-message footer-message__wrap">
-                <div class="footer-message__img">
-                    <img src="img/footer/footer-Message.svg" alt="">
-                    <a href="mailto:zakaz@kresla-samurai.ru" class="footer-message__text">zakaz@kresla-samurai.ru</a>
-                </div>
-            </div>
-            <div class="footer-gps footer-gps__wrap">
-                <div class="footer-gps__img">
-                    <img src="img/footer/footre-gps.svg" alt="">
-                    <a href="#" class="footer-gps__text">ул. Красного курсанта д.25, лит.в, оф. 114, бизнес-центр "RED
-                        CADET"</a>
-                </div>
-            </div>
+        </div>
     </footer>
 
     <div class="modal modal--style">
