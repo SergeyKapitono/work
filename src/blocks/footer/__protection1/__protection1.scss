@@ -1,0 +1,15 @@
+.footer__protection1 {
+    display: none;
+}
+
+
+@media (max-width: 48em) {
+    .footer__protection1 {
+        display: block;
+    }
+    .footer__protection1 .footer__text-protec1 {
+        @include font(500, 2.4rem, 140%);
+        color: #959AAE;
+        margin-top: 2rem;
+    }
+}

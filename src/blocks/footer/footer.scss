@@ -5,3 +5,9 @@
 .footer .container {
     height: 25.4rem;
 }
+
+@media (max-width: 48em) {
+    .footer .container {
+        height: 63rem;
+    }
+}

@@ -3,3 +3,11 @@
     height: 2.9rem;
     margin-top: 6.6rem;
 }
+
+@media (max-width: 48em) {
+    .footer__img-logo img {
+       margin-top: 4.1rem;
+       width: 26rem;
+       height: 4rem;
+    }
+}

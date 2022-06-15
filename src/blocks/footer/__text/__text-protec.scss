@@ -3,3 +3,9 @@
     text-align: center;
     margin-top: 1.5rem;
 }
+
+@media (max-width: 48em) {
+    .footer__text-protec {
+        display: none;
+    }
+}

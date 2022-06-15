@@ -2,3 +2,9 @@
     @include font(600, 2rem, 140%);
     margin-left: .9rem;
 }
+
+@media (max-width: 48em) {
+    .footer-tel__text {
+        margin-left: 0;
+    }
+}

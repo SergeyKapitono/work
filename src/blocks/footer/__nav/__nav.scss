@@ -3,3 +3,9 @@
     flex-direction: column;
     margin-top: 6.6rem;
 }
+
+@media (max-width: 48em) {
+    .footer__nav {
+        margin-top: 2rem;
+    }
+}

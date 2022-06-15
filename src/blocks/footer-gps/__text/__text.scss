@@ -2,3 +2,10 @@
     @include font(400, 1.7rem, 140%);
     margin-left: .9rem;
 }
+
+@media (max-width: 48em) {
+    .footer-gps__text {
+        margin-left: 0;
+        font-size: 2.4rem;
+    }
+}

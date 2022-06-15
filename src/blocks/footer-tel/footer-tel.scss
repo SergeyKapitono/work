@@ -2,3 +2,9 @@
     display: flex;
     margin-top: 6.6rem;
 }
+
+@media (max-width: 48em) {
+    .footer-tel {
+        margin-top: 2rem;
+    }
+}

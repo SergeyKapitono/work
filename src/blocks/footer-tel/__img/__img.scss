@@ -2,3 +2,9 @@
     Width: 2.4rem; 
     Height: 2.4rem;
 }
+
+@media (max-width: 48em) {
+    .footer-tel__img {
+        display: none;
+    }
+}

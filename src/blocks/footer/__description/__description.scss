@@ -2,3 +2,11 @@
     @include font(400, 1rem, 150%);
     text-align: center;
 }
+
+@media (max-width: 48em) {
+    .footer__description {
+        text-align: start;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}

@@ -3,3 +3,8 @@
     justify-content: space-between;
 }
 
+@media (max-width: 48em) {
+    .footer__wrap {
+        display: block;
+    }
+}
