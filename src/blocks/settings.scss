@@ -1,10 +1,19 @@
 .active {
-    display: flex;
-  }
-  
+  display: flex;
+}
+
+.noscroll {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+.just-validate-error-label {
+  padding-top: .35rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 48em) {
   .noscroll {
-    overflow: hidden !important;
-    height: 100% !important;
 
     & .header {
       position: fixed;
@@ -14,3 +23,4 @@
       z-index: 100;
     }
   }
+}
